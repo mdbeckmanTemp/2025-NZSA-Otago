@@ -1,0 +1,48 @@
+---
+title: "Aligning expectations for the emergent discipline of data science education"
+author: |
+  | Matthew Beckman
+  | Penn State University
+date: | 
+  | NZSA Visiting Lecturer Seminar
+  | University of Otago
+  | 
+  | Dunedin, New Zealand
+  | April 14, 2024
+
+
+  
+output:
+  beamer_presentation: 
+    colortheme: seagull
+    theme: Pittsburgh
+  slidy_presentation: 
+    fig_width: 8
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+library(tidyverse)
+library(knitr)
+
+```
+
+
+
+# References 
+
+\tiny
+
+
+
+# Thank You
+
+
+\titlepage
+
+
+Resource Page: https://mdbeckmantemp.github.io/NZSA-Seminar/
+
+
+
