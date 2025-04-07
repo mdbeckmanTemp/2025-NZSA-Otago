@@ -455,20 +455,19 @@ see, e.g., U.S. Department of Education, Office of Educational Technology (2023)
     \includegraphics[width=\linewidth]{cj-schematic.png}
   \end{column}
   \begin{column}{0.55\textwidth}
-    \includegraphics[width=\linewidth]{FB-team-cc.png}
+    \includegraphics[width=\linewidth]{FB-team-cj.png}
     \begin{itemize}
       \item Capture all student responses
       \item Review set of peer responses
       \item Rank most to least developed
       \item Write peer feedback
       \item (repeat for a few sets)
-      \item Review peer feedback to \textbf{yours}
+      \item Review peer feedback to \textbf{you}
       \item Update your initial response?
     \end{itemize}
   \end{column}
 \end{columns}
 
-<!-- ![](cj-schematic.png){ width=50% } -->
 
 
 # Discussion
