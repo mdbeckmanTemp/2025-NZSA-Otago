@@ -33,7 +33,15 @@ output:
 
 *Abstract.* This talk will explore several topics related to the emergent discipline of data science education from perspective of a former industry statistician turned academic. Remarks will touch on risks of misaligned expectations as experienced by students, faculty, and employers as well as both opportunities and optimism for vibrant interdisciplinary data science programs at the undergraduate level.  The session is intended to be interactive and invites input throughout from those in attendance about challenges and perspectives for designing and implementing quality Data Science programs at the post-secondary level.
 
-- [Slides (PDF)](docsDS/202504-scalable-formative-assessment.pdf): NLP Tools for Formative Assessment
+- [Slides (PDF)](NZSA DS Education Seminar.pdf): Data Science Education
+- [Google Slides](https://docs.google.com/presentation/d/1VZjzPrOPest5bvbtPTHbdiFTflhSamORIM8GLFIkCTc/edit#slide=id.g349976153b9_0_68): Data Science Education
+
+### Resources
+
+- [causeweb.org](https://www.causeweb.org/cause/)
+- [datascience4everyone.org](https://www.datascience4everyone.org/)
+- [Journal of Statistics & Data Science Education](https://www.tandfonline.com/journals/ujse21)
+- [Harvard Data Science Review](https://hdsr.mitpress.mit.edu/stepping-stones)
 
 
 ## Acknowledgments
