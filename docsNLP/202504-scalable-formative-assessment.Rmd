@@ -7,11 +7,9 @@ date: |
   | NZSA Visiting Lecturer Seminar
   | University of Otago
   | 
-  | Dunedin, New Zealand
-  | April 14, 2024
+  | April 14, 2025
 
 
-  
 output:
   beamer_presentation: 
     colortheme: seagull
@@ -220,9 +218,12 @@ knitr::include_graphics(c("OddForm.png","EvenForm.png"))
 
 ### Scoreboard[^1]
 
-- (RQ1) Instructor agreement ($\text{QWK} \approx 0.7 \text{ to } 0.8+$)
-- (RQ1) UTA agreement ($\text{QWK} \approx 0.6 \text{ to } 0.7+$)
-- What about... NLP algorithm & instructor agreement?
+\small
+
+- (RQ1) Instructor agreement ($\text{QWK} \approx 0.7 \text{ to } 0.8+$)  
+- (RQ1) UTA agreement ($\text{QWK} \approx 0.6 \text{ to } 0.7+$)  
+- **What about... NLP algorithm & instructor agreement?**  
+ 
 <!-- - NLP algorithm agreement with instructors ($\text{QWK} \approx 0.7+$) -->
 <!-- - Human-Algorithm partnership may be even better? ($\approx 0.85+$) -->
 <!-- - Pursuing multiple avenues for grouping & feedback -->
@@ -302,17 +303,21 @@ Semantic Feature-Wide Transformation Relation Network (SFRN):
 
 ### Scoreboard[^1]
 
-- (RQ1) Instructor agreement ($\text{QWK} \approx 0.7 \text{ to } 0.8+$)
-- (RQ1) UTA agreement ($\text{QWK} \approx 0.6 \text{ to } 0.7+$)
-- (RQ2) NLP algorithm & instructor agreement ($\text{QWK} \approx 0.7+$)
-- What about...Human-Algorithm partnership?
+\small
+
+
+- (RQ1) Instructor agreement ($\text{QWK} \approx 0.7 \text{ to } 0.8+$)  
+- (RQ1) UTA agreement ($\text{QWK} \approx 0.6 \text{ to } 0.7+$)  
+- (RQ2) NLP algorithm & instructor agreement ($\text{QWK} \approx 0.7+$)  
+- **What if we combine the Human & Machine??**  
+
 <!-- - Human-Algorithm partnership may be even better? ($\approx 0.85+$) -->
 <!-- - Pursuing multiple avenues for grouping & feedback -->
 
 
 
 
-# Human-Machine Partnership?
+# Human-Machine Combination?
 
 ![Image credit: https://www.slugmag.com/arts/film/film-reviews/terminator-genisys-time-is-not-on-my-side/](terminator.png){ width=90% }
 
@@ -367,6 +372,30 @@ Want to evaluate accuracy of marking algorithm when designed to "defer" to human
 <!-- ![](HIL-deferral.png) -->
 
 
+# Results
+
+- "short-answer" tasks are good for students, but hard to scale
+- Can NLP tools help instructors give students feedback?
+    - Evaluate & group student responses
+    - Compare agreement between NLP & humans
+    - Evaluate scalable, personalized feedback solutions
+
+### Scoreboard[^2]
+
+\small
+
+
+- (RQ1) Instructor agreement ($\text{QWK} \approx 0.7 \text{ to } 0.8+$)  
+- (RQ1) UTA agreement ($\text{QWK} \approx 0.6 \text{ to } 0.7+$)  
+- (RQ2) NLP algorithm agreement with instructors ($\text{QWK} \approx 0.7+$)  
+- (RQ2) Human-Algorithm partnership may be even better? ($\approx 0.85+$)  
+- **Can we cluster responses & provide feedback?**  
+
+
+[^2]: Li, et al., (2023)
+
+
+
 # Methods (RQ3)
 
 **RQ3**: What sort of NLP representation leads to good clustering performance, and how does that interact with the classification algorithm?
@@ -393,12 +422,6 @@ Want to evaluate accuracy of marking algorithm when designed to "defer" to human
 
 
 
-# {.plain}
-
-<!-- \noindent\hspace*{-1cm}\includegraphics[width=\paperwidth]{terminator.png}  -->
-
-
-![Image credit: https://www.slugmag.com/arts/film/film-reviews/terminator-genisys-time-is-not-on-my-side/](terminator.png){ width=100% }
 
 
 # Feedback: Just let AI do it
@@ -407,14 +430,37 @@ Want to evaluate accuracy of marking algorithm when designed to "defer" to human
 - conflicts with goal statement (e.g., amplify, not supplant, instructor effort)
 - additional concerns...
 
-see, e.g., U.S. Department of Education, Office of Educational Technology (2023). *Artificial Intelligence and Future of Teaching and Learning: Insights and Recommendations*, Washington, DC. 
 
+# {.plain}
+
+<!-- \noindent\hspace*{-1cm}\includegraphics[width=\paperwidth]{terminator.png}  -->
+
+
+![Image credit: https://www.slugmag.com/arts/film/film-reviews/terminator-genisys-time-is-not-on-my-side/](terminator.png){ width=100% }
+
+
+
+# Feedback: Just let AI do it?[^3]
+
+- undermines instructor benefits of formative assessment
+- conflicts with goal statement (e.g., amplify, not supplant, instructor effort)
+- Our work has found AI to be less than optimal anyway (Wei et al., in review)
+- Also,
+
+\small 
+
+U.S. Department of Education, Office of Educational Technology (2023). *Artificial Intelligence and Future of Teaching and Learning: Insights and Recommendations*, Washington, DC. 
+
+![](US-DOE-recommendations.png){ width=80% }
+
+
+[^3]: Wei, Beckman, Pearl, & Passonneau (in review). Concept-based Rubrics Improve LLM Formative Assessment and Data Synthesis.
 
 # Feedback Avenues 
 
-- ~~Just let AI do it~~  ...too dystopian 
-- Classifier / Clustering Tools?  ...cursed? 
-- Topological Data Analysis Tools?  ...interesting, but long road
+- ~~Just let AI do it~~  
+- Classifier / Clustering Tools?   
+- Topological Data Analysis Tools?  
 - Guided Reflection? 
 
 
@@ -445,10 +491,11 @@ see, e.g., U.S. Department of Education, Office of Educational Technology (2023)
     - Promising work for NLP application of TDA, broadly
     - Viability for feedback is still a long road
 
+<!-- # Feedback: Guided Reflection with Comparative Judgment -->
+
+
 
 # Feedback: Guided Reflection with Comparative Judgment
-
-<!-- ![](FB-team-cj.png) -->
 
 \begin{columns}
   \begin{column}{0.45\textwidth}
@@ -467,6 +514,25 @@ see, e.g., U.S. Department of Education, Office of Educational Technology (2023)
     \end{itemize}
   \end{column}
 \end{columns}
+
+# Results
+
+- "short-answer" tasks are good for students, but hard to scale
+- Can NLP tools help instructors give students feedback?
+    - Evaluate & group student responses
+    - Compare agreement between NLP & humans
+    - Evaluate scalable, personalized feedback solutions
+
+### Scoreboard (Final)
+
+\small
+
+
+- (RQ1) Instructor agreement ($\text{QWK} \approx 0.7 \text{ to } 0.8+$)  
+- (RQ1) UTA agreement ($\text{QWK} \approx 0.6 \text{ to } 0.7+$)  
+- (RQ2) NLP algorithm agreement with instructors ($\text{QWK} \approx 0.7+$)  
+- (RQ2) Human-Algorithm partnership may be even better? ($\approx 0.85+$)  
+- (RQ3) Clustering performance? (one of several avenues to pursue)  
 
 
 
@@ -487,7 +553,7 @@ see, e.g., U.S. Department of Education, Office of Educational Technology (2023)
 # Current Events
 
 - challenge system with diverse tasks, institutions, student populations;
-    - partnering with ISU, MSU, PSU, UCSB, UF, UTEP, & UoA (NZ)
+    - partnering with ISU, MSU, PSU, UCSB, UF, UTEP, & UoA
     - both "consensus" tasks & "local" tasks
     - approx 44,000 responses from ~ 13,000 students
     - targeting languistic diversity
@@ -499,6 +565,7 @@ see, e.g., U.S. Department of Education, Office of Educational Technology (2023)
     - accommodates more complex task structure
     - impact of response length 
     - studying influence of rubric features (Wei et al, in review)
+- Studying comparative judgments for guided reflection as feedback
 
 
 
