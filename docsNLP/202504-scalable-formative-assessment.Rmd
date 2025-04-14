@@ -50,6 +50,7 @@ knitr::include_graphics(c("OddForm.png","EvenForm.png"))
 
 # Motivation
 
+- Formative assessment intends to support learning; summative assessment intends to measure learning.
 - **"Write-to-learn" tasks improve learning outcomes** (Graham, et al., 2020)
 - Critical for citizen-statisticians to communicate effectively (Gould, 2010)
 - Frequent practice w/ communicating improves statistical literacy and promotes retention (Basu, et al., 2013)
