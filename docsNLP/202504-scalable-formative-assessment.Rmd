@@ -87,6 +87,9 @@ knitr::include_graphics(c("OddForm.png","EvenForm.png"))
 
 \noindent\hspace*{-1cm}\includegraphics[width=\paperwidth]{goal-1-tech.png} 
 
+# Goal {.plain}
+
+\noindent\hspace*{-1cm}\includegraphics[width=\paperwidth]{goal-6-assist.png} 
 
 
 # Goal {.plain}
@@ -108,10 +111,6 @@ knitr::include_graphics(c("OddForm.png","EvenForm.png"))
 
 \noindent\hspace*{-1cm}\includegraphics[width=\paperwidth]{goal-5-burden.png} 
 
-
-# Goal {.plain}
-
-\noindent\hspace*{-1cm}\includegraphics[width=\paperwidth]{goal-6-assist.png} 
 
 
 
@@ -274,7 +273,7 @@ Li, Z., Tomar, Y., & Passonneau, R. J. (2021). A Semantic Feature-Wise Transform
 
 ![encoder (Left); fusion function (Middle); classifier (Right).](SFRN.png){width=70%}
 
-Semantic Feature-Wide Transformation Relation Network (SFRN):
+Semantic Feature-Wise Transformation Relation Network (SFRN):
 
 - end-to-end model with three components:
     - ($g_{\theta}MLP$) pretrained BERT encoder (LLM) >> vector representations
